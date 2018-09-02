@@ -1,5 +1,5 @@
 {
-  "name": "loopback-component-storage",
+  "name": "@walkthechat/loopback-component-storage",
   "description": "Loopback Storage Service",
   "engines": {
     "node": ">=6"
