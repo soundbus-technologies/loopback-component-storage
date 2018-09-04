@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha --timeout 3000",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "fix": "eslint . --fix"
   },
   "dependencies": {
     "ali-oss": "^6.0.1",
