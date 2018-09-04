@@ -1,22 +1,19 @@
-# LoopBack Storage Component
+# Aliyun oss support for loopback component storage
+Add aliyun oss support for loopback
+> [Aliyun OSS](https://www.alibabacloud.com/help/product/31815.htm?spm=a3c0i.7950270.1167928.3.2795ab91hyOWI7)
 
-**NOTE: The loopback-component-storage module supersedes [loopback-storage-service](https://www.npmjs.org/package/loopback-storage-service). Please update your package.json accordingly.**
-
-LoopBack storage component provides Node.js and REST APIs to manage binary file contents
-using pluggable storage providers, such as local file systems, Amazon S3, or
-Rackspace cloud files. It uses [pkgcloud](https://github.com/pkgcloud/pkgcloud) to support cloud-based
-storage services including:
-
-- Amazon
-- Azure
-- Google Cloud
-- Openstack
-- Rackspace
-
-> Please see the [Storage Service Documentaion](http://loopback.io/doc/en/lb3/Storage-component.html).
-
-For more details on the architecture of the module, please see the introduction section of the [blog post](https://strongloop.com/strongblog/managing-nodejs-loopback-storage-service-provider/). 
-
-## Examples
-
-See https://github.com/strongloop/loopback-example-storage.
+## Usage
+`/server/datasources.json`:
+```
+{
+  "storage": {
+    "name": "storage",
+    "connector": "@walkthechat/loopback-component-storage",
+    "provider": "aliyun",
+    "accessKeyId": "your key",
+    "accessKeySecret": "your key secret",
+    "bucket": "your bucket",
+    "region": "your region"
+  }
+}
+```
