@@ -4,7 +4,7 @@ Add aliyun oss support for loopback
 
 ## Installation
 ```
-npm i @walkthechat/loopback-component-storage
+npm i @soundbus-technologies/loopback-component-storage
 ```
 ## Usage
 `/server/datasources.json`:
@@ -12,7 +12,7 @@ npm i @walkthechat/loopback-component-storage
 {
   "storage": {
     "name": "storage",
-    "connector": "@walkthechat/loopback-component-storage",
+    "connector": "@wsoundbus-technologies/loopback-component-storage",
     "provider": "aliyun",
     "accessKeyId": "your key",
     "accessKeySecret": "your key secret",
