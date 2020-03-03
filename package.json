@@ -1,5 +1,5 @@
 {
-  "name": "@walkthechat/loopback-component-storage",
+  "name": "@soundbus/loopback-component-storage",
   "description": "Loopback Storage Service",
   "engines": {
     "node": ">=6"
