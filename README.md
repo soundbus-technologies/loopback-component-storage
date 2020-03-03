@@ -12,7 +12,7 @@ npm i @soundbus-technologies/loopback-component-storage
 {
   "storage": {
     "name": "storage",
-    "connector": "@wsoundbus-technologies/loopback-component-storage",
+    "connector": "@soundbus/loopback-component-storage",
     "provider": "aliyun",
     "accessKeyId": "your key",
     "accessKeySecret": "your key secret",
